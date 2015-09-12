@@ -22,6 +22,7 @@ a:hover{
 background-color: rgb(35,35,35);
 height: 150px;
 color: white;
+
 }
 #container1{
 
@@ -33,25 +34,29 @@ font-weight: 400;
 font-size: 29px;
 display: inline-block;
 margin-left: 40px;
+font-family: ‘Courier New’, Courier, monospace;
+font-weight: 500;
 }
 hr{
-color: cadetblue;
+background-color: cadetblue;
 }
 h5{
 font-weight: 300;
 
 }
 #bio{
-margin-left: 30px;
+margin-left: 50px;
 /*width: 45%;*/
-display: inline-block;
+display:inline-block;
+align-self: center;
 clear: both;
 float: right;
-}
+    }
 #img{
 display: inline-flex;
 float: left;
 clear: both;
 border-radius: 100%;
+margin: 20px;
 
 }
