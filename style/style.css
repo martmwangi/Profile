@@ -8,6 +8,29 @@ nav ul li{
 display:inline-block;
 padding: 30px;
 }
-a:hover{
-ba
+a{
+text-decoration: none;
+font-size: 30px;
+font-weight: 300;
+color: white;
 }
+a:hover{
+background-color: rgb(194,10,20);
+}
+body{
+background-color: rgb(35,35,35);
+}
+.title{
+color: white;
+font-size: 20px;
+font-weight: 400;
+font-size: 29px;
+}
+hr{
+color: cadetblue;
+}
+h5{
+font-weight: 300;
+
+}
+
