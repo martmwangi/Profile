@@ -8,6 +8,7 @@ nav ul li{
 display:inline-block;
 padding: 30px;
 border-radius: 10px;
+position: relative;
 }
 a{
 text-decoration: none;
@@ -26,8 +27,9 @@ border-bottom: 10px solid blue;
 
 }
 #container1{
-
+display: block;
 }
+
 .title{
 color: rgb(239,0,47);
 font-size: 20px;
@@ -41,6 +43,12 @@ font-weight: 500;
 hr{
 background-color: cadetblue;
 }
+
+/*Styling the body*/
+#container2{
+display: inline-block;
+
+}
 h5{
 font-weight: 300;
 
@@ -48,17 +56,17 @@ font-weight: 300;
 #bio{
 margin-left: 50px;
 width: 70%;
-display:inline-block;
+display: inline;
 align-self: center;
 clear: both;
-float: right;
-border: 1px solid red;
+float: left;
+
     }
 #img{
-display: inline-block;
-float: left;
+
+float: right;
 clear: both;
-border: 1px solid red;
+
 
 margin: 20px;
 
