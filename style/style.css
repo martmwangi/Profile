@@ -24,6 +24,7 @@ background-color: rgb(35,35,35);
 height: 150px;
 color: white;
 border-bottom: 10px solid blue;
+border-right: 10px solid red;
 
 }
 #container1{
